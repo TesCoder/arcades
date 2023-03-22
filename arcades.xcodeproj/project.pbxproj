@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2205B775294308E8002C67C7 /* MemoryGameFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2205B774294308E8002C67C7 /* MemoryGameFramework.swift */; };
+		2219721529430525005028A4 /* arcadesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2219721429430525005028A4 /* arcadesApp.swift */; };
+		2219721929430526005028A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2219721829430526005028A4 /* Assets.xcassets */; };
+		2219721C29430526005028A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2219721B29430526005028A4 /* Preview Assets.xcassets */; };
+		2219722329430559005028A4 /* NameTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2219722229430559005028A4 /* NameTracker.swift */; };
+		221972252943056F005028A4 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221972242943056F005028A4 /* HomePageView.swift */; };
+		2219722729430580005028A4 /* ChooseAGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2219722629430580005028A4 /* ChooseAGame.swift */; };
+		2219722929430591005028A4 /* CheckersContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2219722829430591005028A4 /* CheckersContentView.swift */; };
+		2219722B294305A1005028A4 /* CheckersGameFrameWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2219722A294305A1005028A4 /* CheckersGameFrameWork.swift */; };
+		2219722D294305B0005028A4 /* UnitMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2219722C294305B0005028A4 /* UnitMaker.swift */; };
+		22197231294305CF005028A4 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22197230294305CF005028A4 /* MemoryGame.swift */; };
+		22197233294305DC005028A4 /* MemoryGameContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22197232294305DC005028A4 /* MemoryGameContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2205B774294308E8002C67C7 /* MemoryGameFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGameFramework.swift; sourceTree = "<group>"; };
+		2219721129430525005028A4 /* arcades.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = arcades.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2219721429430525005028A4 /* arcadesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arcadesApp.swift; sourceTree = "<group>"; };
+		2219721829430526005028A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2219721B29430526005028A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2219722229430559005028A4 /* NameTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameTracker.swift; sourceTree = "<group>"; };
+		221972242943056F005028A4 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		2219722629430580005028A4 /* ChooseAGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseAGame.swift; sourceTree = "<group>"; };
+		2219722829430591005028A4 /* CheckersContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckersContentView.swift; sourceTree = "<group>"; };
+		2219722A294305A1005028A4 /* CheckersGameFrameWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckersGameFrameWork.swift; sourceTree = "<group>"; };
+		2219722C294305B0005028A4 /* UnitMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitMaker.swift; sourceTree = "<group>"; };
+		22197230294305CF005028A4 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
+		22197232294305DC005028A4 /* MemoryGameContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGameContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2219720E29430525005028A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2205B76E29430856002C67C7 /* Memory Game */ = {
+			isa = PBXGroup;
+			children = (
+				2205B774294308E8002C67C7 /* MemoryGameFramework.swift */,
+				22197232294305DC005028A4 /* MemoryGameContentView.swift */,
+				22197230294305CF005028A4 /* MemoryGame.swift */,
+			);
+			path = "Memory Game";
+			sourceTree = "<group>";
+		};
+		2205B76F29430863002C67C7 /* Player Name Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				2219722229430559005028A4 /* NameTracker.swift */,
+			);
+			path = "Player Name Tracker";
+			sourceTree = "<group>";
+		};
+		2205B77029430878002C67C7 /* Checkers Game */ = {
+			isa = PBXGroup;
+			children = (
+				2219722829430591005028A4 /* CheckersContentView.swift */,
+				2219722C294305B0005028A4 /* UnitMaker.swift */,
+				2219722A294305A1005028A4 /* CheckersGameFrameWork.swift */,
+			);
+			path = "Checkers Game";
+			sourceTree = "<group>";
+		};
+		2219720829430525005028A4 = {
+			isa = PBXGroup;
+			children = (
+				2219721329430525005028A4 /* arcades */,
+				2219721229430525005028A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2219721229430525005028A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2219721129430525005028A4 /* arcades.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2219721329430525005028A4 /* arcades */ = {
+			isa = PBXGroup;
+			children = (
+				2219721429430525005028A4 /* arcadesApp.swift */,
+				2205B76F29430863002C67C7 /* Player Name Tracker */,
+				221972242943056F005028A4 /* HomePageView.swift */,
+				2219722629430580005028A4 /* ChooseAGame.swift */,
+				2205B77029430878002C67C7 /* Checkers Game */,
+				2205B76E29430856002C67C7 /* Memory Game */,
+				2219721829430526005028A4 /* Assets.xcassets */,
+				2219721A29430526005028A4 /* Preview Content */,
+			);
+			path = arcades;
+			sourceTree = "<group>";
+		};
+		2219721A29430526005028A4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2219721B29430526005028A4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2219721029430525005028A4 /* arcades */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2219721F29430526005028A4 /* Build configuration list for PBXNativeTarget "arcades" */;
+			buildPhases = (
+				2219720D29430525005028A4 /* Sources */,
+				2219720E29430525005028A4 /* Frameworks */,
+				2219720F29430525005028A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = arcades;
+			productName = arcades;
+			productReference = 2219721129430525005028A4 /* arcades.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2219720929430525005028A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					2219721029430525005028A4 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 2219720C29430525005028A4 /* Build configuration list for PBXProject "arcades" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2219720829430525005028A4;
+			productRefGroup = 2219721229430525005028A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2219721029430525005028A4 /* arcades */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2219720F29430525005028A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2219721C29430526005028A4 /* Preview Assets.xcassets in Resources */,
+				2219721929430526005028A4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2219720D29430525005028A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22197231294305CF005028A4 /* MemoryGame.swift in Sources */,
+				22197233294305DC005028A4 /* MemoryGameContentView.swift in Sources */,
+				2205B775294308E8002C67C7 /* MemoryGameFramework.swift in Sources */,
+				2219722729430580005028A4 /* ChooseAGame.swift in Sources */,
+				2219721529430525005028A4 /* arcadesApp.swift in Sources */,
+				2219722B294305A1005028A4 /* CheckersGameFrameWork.swift in Sources */,
+				2219722929430591005028A4 /* CheckersContentView.swift in Sources */,
+				221972252943056F005028A4 /* HomePageView.swift in Sources */,
+				2219722329430559005028A4 /* NameTracker.swift in Sources */,
+				2219722D294305B0005028A4 /* UnitMaker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2219721D29430526005028A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2219721E29430526005028A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2219722029430526005028A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"arcades/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tesfahabebo.domain.arcades;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2219722129430526005028A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"arcades/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tesfahabebo.domain.arcades;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2219720C29430525005028A4 /* Build configuration list for PBXProject "arcades" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2219721D29430526005028A4 /* Debug */,
+				2219721E29430526005028A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2219721F29430526005028A4 /* Build configuration list for PBXNativeTarget "arcades" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2219722029430526005028A4 /* Debug */,
+				2219722129430526005028A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2219720929430525005028A4 /* Project object */;
+}
